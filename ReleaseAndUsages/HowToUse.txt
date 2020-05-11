@@ -1,0 +1,23 @@
+lqm_to_text
+This java program converts LG's QuickMemo lqm note files into text (txt) files
+This is a Java command line program.
+
+Usage:
+
+1. Convert specific files
+java -jar lqm_to_text.jar fileName
+
+Example: java -jar lqm_to_text.jar QuickMemo+_181119_170813.lqm
+- this will create a new text file under curent directory
+
+2. Convert all files from/in current directory
+java -jar lqm_to_text.jar
+
+In this case all your .lqm files you wanna convert should be placed in lqm_to_text.jar directory.
+Files to be converted should have the .lqm extension or will ignored.
+
+In ExecuteAllConversion.cmd
+- You should change the path with the the directory of lqm_to_text.jar (I mean the path after cd - "D:\lqm_to_text\ReleaseAndUsages\")
+plus enter the full Java path ( The string C:\Program Files (x86)\Java\jdk\bin\java has to be changed with the location
+of java.exe file - where the you installed Java Runtime Environment (JRE) or JDK Development Tools (by Oracle).
+

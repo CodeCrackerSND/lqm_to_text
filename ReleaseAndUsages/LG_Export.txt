@@ -1,0 +1,7 @@
+On your phone go to QuickMemo+, you should see all your notes there,
+select the three vertical points button, after that select Sharing (RO: Partajare),
+you will be asked how to share the notes there select by E-mail, you will be asked
+to select email supplier chose there Other,
+enter your email address and your password and you should receive an e-mail
+will all .lqm files and some _1lqm - _10lqm files.
+
